@@ -5,7 +5,7 @@ import random
 def GenerateRandomNumbers():
     RandomNumbers = []
 
-    for i in random.sample(range(0, 10), 5):
+    for i in random.sample(range(1, 11), 5):
         RandomNumbers.append(i)
     print("Random line numbers: {}").format(RandomNumbers)
     return RandomNumbers
