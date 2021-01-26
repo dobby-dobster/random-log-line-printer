@@ -17,7 +17,7 @@ def main():
         count += 1
         for item in RandomNumbers:
             if count == item:
-                print(line)
-                print(item)
+                print("Line number {0}: {1}".format(item, line))
+                
 if __name__ == '__main__':
     main()
