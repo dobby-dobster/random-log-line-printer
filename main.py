@@ -10,7 +10,7 @@ def GenerateRandomNumbers():
 def main():
     RandomNumbers = GenerateRandomNumbers()
     count = 0
-    for line in open("log.txt").xreadlines(  ):
+    for line in open("log.txt"):
         count += 1
         for item in RandomNumbers:
             if count == item:
